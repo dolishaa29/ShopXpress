@@ -1,0 +1,41 @@
+.viewcart {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #fafafa;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.viewcart h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 2rem;
+  color: #333;
+}
+
+.cartitems {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.cartsummary {
+  margin-top: 30px;
+  text-align: center;
+  border-top: 1px solid #ddd;
+  padding-top: 20px;
+}
+
+.pay {
+  padding: 10px 30px;
+  font-weight: bold;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.pay:hover {
+  background-color: #218838;
+}
